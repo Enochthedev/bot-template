@@ -4,7 +4,7 @@ This is a template for creating a Discord bot using Discord.js library. It inclu
 
 ## Getting Started
 
-1. Clone this repository: `git clone https://github.com/username/repo.git`
+1. Clone this repository: `git clone https://github.com/Enochthedev/bot-template.git`
 2. Install dependencies: `npm install`
 3. Create a new Discord bot application and get the token from the Discord Developer Portal.
 4. Copy the `.env.example` file to `.env` and update the `DISCORD_TOKEN` variable with your bot token. See [here](#env-setup) for more details.
