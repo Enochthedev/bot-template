@@ -14,3 +14,36 @@ export type EventCallback<T extends EventKeys>= (
     props: EventProps,
     ...args: ClientEvents[T]
 ) => Awaitable<unknown>;
+
+/// Internal event 
+export interface Event<T extends EventKeys = EventKeys> {
+    key: T;
+    callback: EventCallback<T>;
+}
+
+/// create the event object structure
+export function event<T extends EventKeys>(
+    key: T,
+    callback: EventCallback<T>
+): Event<T> {
+    return { key, callback };
+}
+
+/// Registers events to the client
+export function registerEvents(
+    client: Client,
+    events: Event[]
+): void {
+    for (const{key, callback} of events) {
+        client.on(key, (...args) => {
+            const log = console.log.bind(console, `[Event: ${key}]`);
+            //error handling
+            try {
+                callback({ client, log }, ...args);
+            } catch (error) {
+                log("[Uncaught Error]", error);
+            }
+        })
+        
+    }
+}
