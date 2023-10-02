@@ -1,8 +1,9 @@
 import type { ClientEvents, Awaitable, Client } from "discord.js"; 
+import { LogMethod } from './index.js';
 // Export events enum through here to reduce the amount of imports 
 export { Events } from "discord.js";
 
-export type LogMethod = (...args: unknown[]) => void;
+
 export type EventKeys = keyof ClientEvents;
 
 /// Props that will be passsed through the event callback.
