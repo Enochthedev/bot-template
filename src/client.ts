@@ -10,8 +10,6 @@ const client = new Client({
         GatewayIntentBits.GuildMessageReactions,
         //add message intents
         GatewayIntentBits.MessageContent,
-        GatewayIntentBits.MessageContent,
-
     ],
 });
 
