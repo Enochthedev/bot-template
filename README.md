@@ -10,7 +10,8 @@ This is a template for creating a Discord bot using Discord.js library. It inclu
 4. Copy the `.env.example` file to `.env` and update the `DISCORD_TOKEN` variable with your bot token. See [here](#env-setup) for more details.
 5. Start the bot: `npm start`
 
-
+## Table of README(DEV)
+This contains hyperlinks of each readme doc for the codebase
 ## Table of Contents
 
 
