@@ -14,6 +14,17 @@ This is a template for creating a Discord bot using Discord.js library. It inclu
 This contains hyperlinks of each readme doc for the codebase
 ## Table of Contents
 
+- [Getting Started](#getting-started)
+- [Table of Contents](#table-of-contents)
+- [env-setup](#env-setup)
+- [Features](#features)
+  - [Ping Command](#ping-command)
+  - [Random Meme Command](#random-meme-command)
+  - [Ready Event](#ready-event)
+  - [Message Event](#message-event)
+- [Contributing](#contributing)
+- [License](#license)
+
 
 
 
