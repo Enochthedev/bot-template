@@ -2,7 +2,7 @@ repo_name: Enochthedev/bot-template
 report_id: 56fe926900586e174dfdaf0e0aca4887
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-28T08:17:47+00:00'
+timestamp: '2024-02-29T19:41:03+00:00'
 requested_by: Enochthedev
 provider: github
 branch: main
@@ -173,7 +173,7 @@ tools:
   last_updated_by: Enochthedev
   last_updated_on: 2023-09-30 15:39:16.000000000 Z
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
@@ -352,7 +352,7 @@ tools:
   last_updated_by: Enochthedev
   last_updated_on: 2023-09-30 15:39:16.000000000 Z
 - name: Next.js
-  description: 'A small framework for server-rendered universal JavaScript apps '
+  description: A small framework for server-rendered universal JavaScript apps
   website_url: https://nextjs.org/
   open_source: true
   hosted_saas: false
@@ -805,7 +805,7 @@ tools:
   last_updated_by: Enochthedev
   last_updated_on: 2023-09-30 15:39:16.000000000 Z
 - name: Monit
-  description: 'A free, open-source process supervision tool '
+  description: A free, open-source process supervision tool
   website_url: https://mmonit.com
   open_source: false
   hosted_saas: false
@@ -854,7 +854,7 @@ tools:
   last_updated_by: Enochthedev
   last_updated_on: 2023-09-30 15:39:16.000000000 Z
 - name: Prettier
-  description: 'Prettier is an opinionated code formatter. '
+  description: Prettier is an opinionated code formatter.
   website_url: https://prettier.io/
   version: 2.5.1
   license: MIT
@@ -1755,7 +1755,7 @@ tools:
   last_updated_by: Enochthedev
   last_updated_on: 2023-09-30 15:39:16.000000000 Z
 - name: oso
-  description: 'A batteries-included system for application authorization. '
+  description: A batteries-included system for application authorization.
   website_url: https://www.osohq.com/
   license: Apache-2.0
   open_source: true
